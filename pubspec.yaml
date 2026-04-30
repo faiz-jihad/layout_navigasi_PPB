@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # Pindahkan go_router ke sini, di bawah flutter: sdk: flutter
+  go_router: ^13.0.0
 
 dev_dependencies:
   flutter_test:
@@ -19,5 +21,12 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   
+  # Bagian assets tetap di bawah flutter:
   assets:
     - images/masjid.jpeg
+    - images/km.jpg
+    - images/pb.jpg
+    - images/sepatu.webp
+    - images/hedset.avif
+    - images/jam.webp
+    - images/ransel.webp
